@@ -17,7 +17,7 @@ module.exports = {
     ],
 
     output: {
-        path: path.resolve(__dirname, './root'),
+        path: path.resolve(__dirname, './'),
         filename: 'index.js',
     },
     watch: true,
