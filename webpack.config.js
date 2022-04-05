@@ -17,8 +17,8 @@ module.exports = {
     ],
 
     output: {
-        path: path.resolve(__dirname, './Build'),
-        filename: 'main.js',
+        path: path.resolve(__dirname, './root'),
+        filename: 'index.js',
     },
     watch: true,
     /* devtool: 'cheap-module-source-map', */
